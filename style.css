@@ -37,3 +37,37 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 38%;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 20px 20px 40px grey;
+    border-radius: 20px;
+}
+#full-stack-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#telco-experience-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.experience-item h2{
+    font: 40px;
+}
+section h1{
+    padding-left: 10px;
+}
+footer p{
+    text-align: center;
+}
