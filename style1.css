@@ -1,0 +1,67 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+.orange-color{
+    color: orange;
+}
+.welcome-to{
+    font-size: 50px;
+}
+.link-button{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.div-element{
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.div-element img{
+    width: 70%;
+}
+.div-element h1:hover {
+    font-size: 60px;
+    color: brown;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.third-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    height: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+.full-stack-item{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange) 4;
+
+}
+.telco-experience-item{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
