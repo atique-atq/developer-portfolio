@@ -23,7 +23,7 @@ body{
 .div-element{
     width: 40%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 5%
 }
 .div-element img{
     width: 70%;
@@ -61,7 +61,7 @@ body{
 
 }
 .telco-experience-item{
-    border-left: 10px solid;
+    border-left: 10px solid
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
